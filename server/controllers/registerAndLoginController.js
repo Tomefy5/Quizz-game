@@ -2,8 +2,13 @@ const { register, login } = require("../services/registerAndLogin");
 
 const registerHandler = async (req, res) => {
   const user = req.body;
-  await register(user);
-  res.status(201).json({ message: "You are registered successfuly" });
+
+  try {
+    const result = await register(user);
+    res.status(201).json(result);
+  } catch (error) {
+    res.status(400).json({ success: false, message: error.message });
+  }
 };
 
 const loginHandler = async (req, res) => {
@@ -15,7 +20,7 @@ const loginHandler = async (req, res) => {
       return res.status(401).json({ message: "Invalid email or password" });
     res.json({ token });
   } catch (err) {
-    res.status(500).json({ message: "Server Erro", error: err.message });
+    res.status(500).json({ message: "Server Error ", error: err.message });
   }
 };
 

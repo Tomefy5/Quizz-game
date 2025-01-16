@@ -17,8 +17,10 @@ const register = async (user) => {
     await newUser.save().then(() => {
       console.log("User saved successfully");
     });
+    return { success: true, message: "User registered successfully" };
   } catch (error) {
-    console.error("Error on register \n", error);
+    console.error("Error on register \n", error.message);
+    throw error;
   }
 };
 
@@ -37,14 +39,13 @@ const login = async (user) => {
       throw new Error("Wrong password");
     }
 
-    const token = jwt.sign(
-      { id: reachedUser._id },
-      process.env.JWT_SECRET,
-      { expiresIn: "1h" }
-    );
+    const token = jwt.sign({ id: reachedUser._id }, process.env.JWT_SECRET, {
+      expiresIn: "1h",
+    });
     return token;
   } catch (error) {
     console.error(`Wrong email or password: ${error.message}`);
+    throw error; // propagate
   }
 };
 

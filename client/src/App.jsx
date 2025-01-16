@@ -1,13 +1,14 @@
-import Header from "./components/Header";
-import ListProducts from "./components/ListProducts";
+import LoginForm from "./components/LoginForm";
+import RegisterForm from "./components/RegisterForm";
+
 
 function App() {
 
 
   return (
     <div className=''>
-      <Header/>
-      <ListProducts/>
+     <RegisterForm/>
+     <LoginForm/>
     </div>
   )
 }
