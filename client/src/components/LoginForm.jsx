@@ -1,9 +1,12 @@
-import { useState } from "react";
-import { login } from "../services/registerAndLoginServices";
+import { useContext, useState } from "react";
+import AuthContext from "../contexts/AuthContext";
+import { useAuth } from "../services/registerAndLoginServices";
 
 export default function LoginForm() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const { login } = useAuth();
+  const { loginAuth } = useContext(AuthContext);
 
   return (
     <form onSubmit={(e) => {login(email, password, e)}}>
@@ -26,7 +29,7 @@ export default function LoginForm() {
         }}
         required
       />
-      <button type="submit" className="btn btn-outline">Login</button>
+      <button onClick={() => loginAuth()} type="submit" className="btn btn-outline">Login</button>
     </form>
   );
 }
