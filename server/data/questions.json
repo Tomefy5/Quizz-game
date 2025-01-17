@@ -1,0 +1,900 @@
+[
+  {
+    "question": "Which programming language is used for frontend development?",
+    "options": ["Python", "JavaScript", "C++", "Java"],
+    "correctAnswer": "JavaScript",
+    "category": "Computer Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Who created Linux?",
+    "options": ["Bill Gates", "Linus Torvalds", "Steve Jobs", "Dennis Ritchie"],
+    "correctAnswer": "Linus Torvalds",
+    "category": "Computer Science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the capital of Japan?",
+    "options": ["Beijing", "Seoul", "Tokyo", "Bangkok"],
+    "correctAnswer": "Tokyo",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How many planets are in the Solar System?",
+    "options": ["7", "8", "9", "10"],
+    "correctAnswer": "8",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Who painted the Mona Lisa?",
+    "options": [
+      "Vincent van Gogh",
+      "Pablo Picasso",
+      "Leonardo da Vinci",
+      "Claude Monet"
+    ],
+    "correctAnswer": "Leonardo da Vinci",
+    "category": "Art",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In which year did World War I begin?",
+    "options": ["1912", "1914", "1916", "1918"],
+    "correctAnswer": "1914",
+    "category": "History",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the square root of 144?",
+    "options": ["10", "11", "12", "13"],
+    "correctAnswer": "12",
+    "category": "Mathematics",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the largest ocean in the world?",
+    "options": ["Atlantic", "Indian", "Pacific", "Arctic"],
+    "correctAnswer": "Pacific",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Who wrote 'Les Misérables'?",
+    "options": ["Émile Zola", "Victor Hugo", "Gustave Flaubert", "Molière"],
+    "correctAnswer": "Victor Hugo",
+    "category": "Literature",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which chemical element has the symbol 'O'?",
+    "options": ["Gold", "Oxygen", "Osmium", "Ozone"],
+    "correctAnswer": "Oxygen",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which country won the FIFA World Cup in 2018?",
+    "options": ["Brazil", "Germany", "Argentina", "France"],
+    "correctAnswer": "France",
+    "category": "Sports",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Who founded Tesla?",
+    "options": ["Jeff Bezos", "Bill Gates", "Elon Musk", "Steve Jobs"],
+    "correctAnswer": "Elon Musk",
+    "category": "Computer Science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How many faces does a cube have?",
+    "options": ["4", "6", "8", "12"],
+    "correctAnswer": "6",
+    "category": "Mathematics",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the most abundant element in the universe?",
+    "options": ["Helium", "Oxygen", "Carbon", "Hydrogen"],
+    "correctAnswer": "Hydrogen",
+    "category": "Science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the largest desert in the world?",
+    "options": ["Sahara", "Gobi", "Antarctica", "Kalahari"],
+    "correctAnswer": "Antarctica",
+    "category": "Geography",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Who discovered penicillin?",
+    "options": [
+      "Louis Pasteur",
+      "Marie Curie",
+      "Alexander Fleming",
+      "Isaac Newton"
+    ],
+    "correctAnswer": "Alexander Fleming",
+    "category": "Science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "In which year did humans first land on the Moon?",
+    "options": ["1959", "1965", "1969", "1973"],
+    "correctAnswer": "1969",
+    "category": "History",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the largest planet in the Solar System?",
+    "options": ["Earth", "Mars", "Jupiter", "Saturn"],
+    "correctAnswer": "Jupiter",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which country is known as the Land of the Rising Sun?",
+    "options": ["China", "India", "Japan", "Thailand"],
+    "correctAnswer": "Japan",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the capital of Australia?",
+    "options": ["Sydney", "Melbourne", "Canberra", "Brisbane"],
+    "correctAnswer": "Canberra",
+    "category": "Geography",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Who formulated the theory of relativity?",
+    "options": [
+      "Isaac Newton",
+      "Albert Einstein",
+      "Galileo Galilei",
+      "Nikola Tesla"
+    ],
+    "correctAnswer": "Albert Einstein",
+    "category": "Science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How many bones are in the adult human body?",
+    "options": ["204", "206", "208", "210"],
+    "correctAnswer": "206",
+    "category": "Science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Who composed the 9th Symphony?",
+    "options": ["Mozart", "Bach", "Beethoven", "Vivaldi"],
+    "correctAnswer": "Beethoven",
+    "category": "Music",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the largest land mammal?",
+    "options": ["Elephant", "Giraffe", "Rhinoceros", "Hippopotamus"],
+    "correctAnswer": "Elephant",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which planet is known as the Red Planet?",
+    "options": ["Mercury", "Mars", "Venus", "Uranus"],
+    "correctAnswer": "Mars",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the fastest animal in the world?",
+    "options": ["Cheetah", "Peregrine Falcon", "Antelope", "Hare"],
+    "correctAnswer": "Peregrine Falcon",
+    "category": "Science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "In which country can you visit the Colosseum?",
+    "options": ["Spain", "Greece", "Italy", "France"],
+    "correctAnswer": "Italy",
+    "category": "History",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the first element in the periodic table?",
+    "options": ["Carbon", "Helium", "Oxygen", "Hydrogen"],
+    "correctAnswer": "Hydrogen",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which language is primarily used for iOS app development?",
+    "options": ["Swift", "Java", "Kotlin", "C#"],
+    "correctAnswer": "Swift",
+    "category": "Computer Science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does HTML stand for?",
+    "options": [
+      "Hyper Text Markup Language",
+      "Hyperlink and Text Markup Language",
+      "High Tech Modern Language",
+      "Hyper Transfer Markup Language"
+    ],
+    "correctAnswer": "Hyper Text Markup Language",
+    "category": "Computer Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which continent is the largest by land area?",
+    "options": ["Africa", "Asia", "North America", "Europe"],
+    "correctAnswer": "Asia",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the currency of the United Kingdom?",
+    "options": ["Euro", "Dollar", "Pound", "Franc"],
+    "correctAnswer": "Pound",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which gas do plants primarily use for photosynthesis?",
+    "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
+    "correctAnswer": "Carbon Dioxide",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Who invented the telephone?",
+    "options": [
+      "Alexander Graham Bell",
+      "Thomas Edison",
+      "Nikola Tesla",
+      "Guglielmo Marconi"
+    ],
+    "correctAnswer": "Alexander Graham Bell",
+    "category": "History",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the result of 7 × 8?",
+    "options": ["48", "54", "56", "64"],
+    "correctAnswer": "56",
+    "category": "Mathematics",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the smallest country in the world?",
+    "options": ["Monaco", "San Marino", "Liechtenstein", "Vatican City"],
+    "correctAnswer": "Vatican City",
+    "category": "Geography",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Who wrote '1984'?",
+    "options": [
+      "George Orwell",
+      "Aldous Huxley",
+      "Ray Bradbury",
+      "J.R.R. Tolkien"
+    ],
+    "correctAnswer": "George Orwell",
+    "category": "Literature",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which planet is closest to the Sun?",
+    "options": ["Venus", "Mercury", "Earth", "Mars"],
+    "correctAnswer": "Mercury",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which team won the first FIFA World Cup in 1930?",
+    "options": ["Brazil", "Uruguay", "Argentina", "Germany"],
+    "correctAnswer": "Uruguay",
+    "category": "Sports",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which company developed the first iPhone?",
+    "options": ["Samsung", "Microsoft", "Apple", "Google"],
+    "correctAnswer": "Apple",
+    "category": "Computer Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How many degrees are in a right angle?",
+    "options": ["45", "60", "90", "180"],
+    "correctAnswer": "90",
+    "category": "Mathematics",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which gas makes up most of Earth's atmosphere?",
+    "options": ["Oxygen", "Nitrogen", "Carbon Dioxide", "Hydrogen"],
+    "correctAnswer": "Nitrogen",
+    "category": "Science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which river is the longest in the world?",
+    "options": ["Amazon", "Nile", "Yangtze", "Mississippi"],
+    "correctAnswer": "Nile",
+    "category": "Geography",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Who discovered gravity?",
+    "options": [
+      "Galileo Galilei",
+      "Albert Einstein",
+      "Isaac Newton",
+      "Nikola Tesla"
+    ],
+    "correctAnswer": "Isaac Newton",
+    "category": "Science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which war was fought between 1939 and 1945?",
+    "options": ["World War I", "Cold War", "World War II", "Vietnam War"],
+    "correctAnswer": "World War II",
+    "category": "History",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the capital of Canada?",
+    "options": ["Toronto", "Vancouver", "Ottawa", "Montreal"],
+    "correctAnswer": "Ottawa",
+    "category": "Geography",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Who wrote 'To Kill a Mockingbird'?",
+    "options": ["Mark Twain", "Harper Lee", "J.D. Salinger", "Jane Austen"],
+    "correctAnswer": "Harper Lee",
+    "category": "Literature",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How many continents are there on Earth?",
+    "options": ["5", "6", "7", "8"],
+    "correctAnswer": "7",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which organ pumps blood throughout the body?",
+    "options": ["Liver", "Lungs", "Heart", "Kidneys"],
+    "correctAnswer": "Heart",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Who directed 'Titanic' (1997)?",
+    "options": [
+      "Steven Spielberg",
+      "James Cameron",
+      "Christopher Nolan",
+      "Martin Scorsese"
+    ],
+    "correctAnswer": "James Cameron",
+    "category": "Art",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which element has the atomic number 1?",
+    "options": ["Oxygen", "Hydrogen", "Helium", "Carbon"],
+    "correctAnswer": "Hydrogen",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which continent has the most countries?",
+    "options": ["Asia", "Africa", "Europe", "South America"],
+    "correctAnswer": "Africa",
+    "category": "Geography",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which famous scientist developed the three laws of motion?",
+    "options": [
+      "Galileo Galilei",
+      "Albert Einstein",
+      "Isaac Newton",
+      "Stephen Hawking"
+    ],
+    "correctAnswer": "Isaac Newton",
+    "category": "Science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which famous artist cut off part of his own ear?",
+    "options": [
+      "Pablo Picasso",
+      "Vincent van Gogh",
+      "Claude Monet",
+      "Salvador Dalí"
+    ],
+    "correctAnswer": "Vincent van Gogh",
+    "category": "Art",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which is the longest river in Europe?",
+    "options": ["Danube", "Thames", "Volga", "Rhine"],
+    "correctAnswer": "Volga",
+    "category": "Geography",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the currency of Japan?",
+    "options": ["Won", "Yen", "Peso", "Dollar"],
+    "correctAnswer": "Yen",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the boiling point of water at sea level?",
+    "options": ["90°C", "100°C", "110°C", "120°C"],
+    "correctAnswer": "100°C",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which planet is known as the Red Planet?",
+    "options": ["Earth", "Mars", "Venus", "Jupiter"],
+    "correctAnswer": "Mars",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Who was the first man to walk on the moon?",
+    "options": [
+      "Buzz Aldrin",
+      "Neil Armstrong",
+      "Yuri Gagarin",
+      "Michael Collins"
+    ],
+    "correctAnswer": "Neil Armstrong",
+    "category": "History",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which country is the largest by population?",
+    "options": ["India", "USA", "China", "Russia"],
+    "correctAnswer": "China",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Who painted the Mona Lisa?",
+    "options": [
+      "Vincent van Gogh",
+      "Pablo Picasso",
+      "Leonardo da Vinci",
+      "Michelangelo"
+    ],
+    "correctAnswer": "Leonardo da Vinci",
+    "category": "Art",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which language is used for web development alongside HTML and CSS?",
+    "options": ["Python", "Java", "JavaScript", "C#"],
+    "correctAnswer": "JavaScript",
+    "category": "Computer Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the capital of France?",
+    "options": ["London", "Berlin", "Paris", "Madrid"],
+    "correctAnswer": "Paris",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How many players are on a soccer team?",
+    "options": ["9", "10", "11", "12"],
+    "correctAnswer": "11",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the hardest natural substance on Earth?",
+    "options": ["Gold", "Diamond", "Iron", "Platinum"],
+    "correctAnswer": "Diamond",
+    "category": "Science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Who wrote 'Romeo and Juliet'?",
+    "options": [
+      "Charles Dickens",
+      "William Shakespeare",
+      "Mark Twain",
+      "Jane Austen"
+    ],
+    "correctAnswer": "William Shakespeare",
+    "category": "Literature",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which animal is known as the 'King of the Jungle'?",
+    "options": ["Lion", "Elephant", "Tiger", "Bear"],
+    "correctAnswer": "Lion",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the square root of 81?",
+    "options": ["7", "9", "11", "12"],
+    "correctAnswer": "9",
+    "category": "Mathematics",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In which year did World War I begin?",
+    "options": ["1912", "1914", "1920", "1939"],
+    "correctAnswer": "1914",
+    "category": "History",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which ocean is the largest?",
+    "options": ["Atlantic", "Indian", "Arctic", "Pacific"],
+    "correctAnswer": "Pacific",
+    "category": "Geography",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which country is known as the Land of the Rising Sun?",
+    "options": ["China", "Japan", "South Korea", "Thailand"],
+    "correctAnswer": "Japan",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Who is the author of the Harry Potter series?",
+    "options": [
+      "J.R.R. Tolkien",
+      "J.K. Rowling",
+      "George R.R. Martin",
+      "Suzanne Collins"
+    ],
+    "correctAnswer": "J.K. Rowling",
+    "category": "Literature",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the largest planet in the solar system?",
+    "options": ["Earth", "Saturn", "Jupiter", "Mars"],
+    "correctAnswer": "Jupiter",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the freezing point of water?",
+    "options": ["0°C", "32°C", "100°C", "50°C"],
+    "correctAnswer": "0°C",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which famous scientist developed the theory of relativity?",
+    "options": [
+      "Isaac Newton",
+      "Albert Einstein",
+      "Galileo Galilei",
+      "Stephen Hawking"
+    ],
+    "correctAnswer": "Albert Einstein",
+    "category": "Science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the capital of Japan?",
+    "options": ["Tokyo", "Kyoto", "Osaka", "Hiroshima"],
+    "correctAnswer": "Tokyo",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the square of 12?",
+    "options": ["144", "121", "130", "100"],
+    "correctAnswer": "144",
+    "category": "Mathematics",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which element has the chemical symbol 'O'?",
+    "options": ["Oxygen", "Osmium", "Ozone", "Oganesson"],
+    "correctAnswer": "Oxygen",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Who was the first President of the United States?",
+    "options": [
+      "Abraham Lincoln",
+      "George Washington",
+      "Thomas Jefferson",
+      "John Adams"
+    ],
+    "correctAnswer": "George Washington",
+    "category": "History",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which fruit is known as the 'King of Fruits'?",
+    "options": ["Mango", "Durian", "Banana", "Pineapple"],
+    "correctAnswer": "Durian",
+    "category": "Science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which country invented pizza?",
+    "options": ["France", "Italy", "Germany", "USA"],
+    "correctAnswer": "Italy",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the largest mammal on Earth?",
+    "options": ["Elephant", "Whale", "Giraffe", "Shark"],
+    "correctAnswer": "Whale",
+    "category": "Science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Who invented the light bulb?",
+    "options": [
+      "Nikola Tesla",
+      "Thomas Edison",
+      "Alexander Graham Bell",
+      "Albert Einstein"
+    ],
+    "correctAnswer": "Thomas Edison",
+    "category": "History",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which famous building is located in Paris, France?",
+    "options": ["Big Ben", "Eiffel Tower", "Colosseum", "Statue of Liberty"],
+    "correctAnswer": "Eiffel Tower",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How many bones are in the adult human body?",
+    "options": ["206", "208", "215", "220"],
+    "correctAnswer": "206",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which animal is the largest land mammal?",
+    "options": ["Elephant", "Giraffe", "Rhino", "Hippopotamus"],
+    "correctAnswer": "Elephant",
+    "category": "Science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Who was the first woman to win a Nobel Prize?",
+    "options": [
+      "Marie Curie",
+      "Dorothy Hodgkin",
+      "Rosalind Franklin",
+      "Ada Lovelace"
+    ],
+    "correctAnswer": "Marie Curie",
+    "category": "History",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the chemical symbol for gold?",
+    "options": ["Au", "Ag", "Pb", "Fe"],
+    "correctAnswer": "Au",
+    "category": "Science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the capital of Italy?",
+    "options": ["Paris", "Rome", "Berlin", "Madrid"],
+    "correctAnswer": "Rome",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the speed of light?",
+    "options": ["300,000 km/s", "150,000 km/s", "500,000 km/s", "100,000 km/s"],
+    "correctAnswer": "300,000 km/s",
+    "category": "Science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What year did the Titanic sink?",
+    "options": ["1905", "1912", "1920", "1931"],
+    "correctAnswer": "1912",
+    "category": "History",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which planet is known as the 'Gas Giant'?",
+    "options": ["Earth", "Venus", "Jupiter", "Mars"],
+    "correctAnswer": "Jupiter",
+    "category": "Science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which is the smallest ocean in the world?",
+    "options": [
+      "Atlantic Ocean",
+      "Indian Ocean",
+      "Arctic Ocean",
+      "Pacific Ocean"
+    ],
+    "correctAnswer": "Arctic Ocean",
+    "category": "Geography",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which movie won the Oscar for Best Picture in 2020?",
+    "options": [
+      "The Irishman",
+      "Once Upon a Time in Hollywood",
+      "Parasite",
+      "Joker"
+    ],
+    "correctAnswer": "Parasite",
+    "category": "Art",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the term for an animal that only eats plants?",
+    "options": ["Carnivore", "Herbivore", "Omnivore", "Insectivore"],
+    "correctAnswer": "Herbivore",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the smallest planet in our solar system?",
+    "options": ["Mercury", "Mars", "Venus", "Pluto"],
+    "correctAnswer": "Mercury",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Who discovered penicillin?",
+    "options": ["Marie Curie", "Alexander Fleming", "Louis Pasteur", "Isaac Newton"],
+    "correctAnswer": "Alexander Fleming",
+    "category": "Science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which country won the first FIFA World Cup in 1930?",
+    "options": ["Brazil", "Germany", "Uruguay", "Argentina"],
+    "correctAnswer": "Uruguay",
+    "category": "Sports",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the largest ocean on Earth?",
+    "options": ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
+    "correctAnswer": "Pacific Ocean",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Who was the first person to walk on the Moon?",
+    "options": ["Neil Armstrong", "Buzz Aldrin", "Yuri Gagarin", "Michael Collins"],
+    "correctAnswer": "Neil Armstrong",
+    "category": "History",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which element has the atomic number 1?",
+    "options": ["Oxygen", "Helium", "Hydrogen", "Carbon"],
+    "correctAnswer": "Hydrogen",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which city is known as 'The Big Apple'?",
+    "options": ["Los Angeles", "Chicago", "New York", "San Francisco"],
+    "correctAnswer": "New York",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the main ingredient in guacamole?",
+    "options": ["Tomato", "Avocado", "Lettuce", "Cucumber"],
+    "correctAnswer": "Avocado",
+    "category": "Food",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Who painted 'The Starry Night'?",
+    "options": ["Claude Monet", "Pablo Picasso", "Vincent van Gogh", "Leonardo da Vinci"],
+    "correctAnswer": "Vincent van Gogh",
+    "category": "Art",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which is the longest bone in the human body?",
+    "options": ["Femur", "Tibia", "Humerus", "Radius"],
+    "correctAnswer": "Femur",
+    "category": "Science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which country is famous for inventing pizza?",
+    "options": ["France", "Italy", "United States", "Spain"],
+    "correctAnswer": "Italy",
+    "category": "Food",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the capital of Canada?",
+    "options": ["Toronto", "Ottawa", "Vancouver", "Montreal"],
+    "correctAnswer": "Ottawa",
+    "category": "Geography",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the name of the fairy in 'Peter Pan'?",
+    "options": ["Wendy", "Tinker Bell", "Ariel", "Belle"],
+    "correctAnswer": "Tinker Bell",
+    "category": "Literature",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which metal is used to make electrical wires?",
+    "options": ["Iron", "Gold", "Copper", "Aluminum"],
+    "correctAnswer": "Copper",
+    "category": "Science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which country hosted the 2016 Summer Olympics?",
+    "options": ["China", "Brazil", "United States", "Russia"],
+    "correctAnswer": "Brazil",
+    "category": "Sports",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the capital of South Korea?",
+    "options": ["Seoul", "Tokyo", "Bangkok", "Beijing"],
+    "correctAnswer": "Seoul",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Who wrote 'Pride and Prejudice'?",
+    "options": ["Jane Austen", "Emily Brontë", "Charles Dickens", "William Shakespeare"],
+    "correctAnswer": "Jane Austen",
+    "category": "Literature",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which planet has the most moons?",
+    "options": ["Earth", "Mars", "Jupiter", "Saturn"],
+    "correctAnswer": "Saturn",
+    "category": "Science",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which country produces the most coffee?",
+    "options": ["Colombia", "Ethiopia", "Vietnam", "Brazil"],
+    "correctAnswer": "Brazil",
+    "category": "Food",
+    "difficulty": "medium"
+  }
+]
