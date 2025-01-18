@@ -1,6 +1,7 @@
 const User = require("../models/User");
 const jwt = require("jsonwebtoken");
 const Score = require("../models/Score");
+const GameData = require("../models/GameData");
 
 const register = async (user) => {
   // user is an object
@@ -19,6 +20,10 @@ const register = async (user) => {
     // Create score for this user
     const userScore = new Score({user: newUser._id, score: 0});
     await userScore.save(); // Save in colection score
+
+    // Create game data
+    const userGameData = new GameData({user: newUser._id, current_score: 0, current_level: "easy", lives_left: 5});
+    await userGameData.save();
 
     await newUser.save().then(() => {
       console.log("User saved successfully");

@@ -7,10 +7,10 @@ const ScoreScheme = new Schema(
       type: mongoose.Schema.Types.ObjectId,
       ref: "User",
       required: true,
-      unique: true,
+      unique: false,
     },
     score: {
-      type: Number,
+      type: Number, // todo: transform score type to array of numbers for statistics (we update only current score of gameDate during the game)
       required: true,
     },
   },
@@ -18,9 +18,8 @@ const ScoreScheme = new Schema(
 );
 
 ScoreScheme.methods.incrementScore = function () {
-  console.log("Avant :", this);  // 🔍 Vérification avant l'incrémentation
   this.score += 1;
-  console.log("Après :", this); 
 };
+
 const Score = mongoose.model("Score", ScoreScheme);
 module.exports = Score;

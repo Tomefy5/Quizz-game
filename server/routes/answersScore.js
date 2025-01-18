@@ -6,6 +6,6 @@ const answerScoreController = require("../controllers/answerScoreController");
 router.post('/check-answer', answerScoreController.checkAnswer);
 
 // Route for incrementing score
-router.post('/increment-score/:scoreId', answerScoreController.incrementScore);
+router.post('/increment-score/:gamedataId', answerScoreController.incrementScore);
 
 module.exports = router;

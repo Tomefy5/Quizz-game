@@ -1,5 +1,5 @@
 const Question = require("../models/Question");
-const Score = require("../models/Score");
+const GameData = require("../models/GameData");
 
 const checkAnswer = async (userAnswer, questionId) => {
   try {
@@ -12,13 +12,15 @@ const checkAnswer = async (userAnswer, questionId) => {
   }
 };
 
-const incrementScore = async (scoreId) => {
+const incrementScore = async (gamedataId) => {
   try {
-    const score = await Score.findById(scoreId);
-    if (!score) throw new Error("Score not found");
-    score.incrementScore();
-    await score.save();
-    return score;
+    
+    const gameData = await GameData.findById(gamedataId);
+    console.log(gameData);
+    if (!gameData) throw new Error("Score not found");
+    gameData.incrementScore();
+    await gameData.save();
+    return gameData;
   } catch (err) {
     throw err;
   }

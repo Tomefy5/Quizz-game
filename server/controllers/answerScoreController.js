@@ -14,10 +14,10 @@ const checkAnswerHandler = async (req, res) => {
 };
 
 const incrementScoreHandler = async (req, res) => {
-  const { scoreId } = req.params;
+  const { gamedataId } = req.params;
 
   try {
-    await incrementScore(scoreId);
+    await incrementScore(gamedataId);
     res.status(200).json({ message: "Score incremented" });
   } catch (err) {
     res
