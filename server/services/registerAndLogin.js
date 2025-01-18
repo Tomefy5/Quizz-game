@@ -1,5 +1,6 @@
 const User = require("../models/User");
 const jwt = require("jsonwebtoken");
+const Score = require("../models/Score");
 
 const register = async (user) => {
   // user is an object
@@ -14,6 +15,11 @@ const register = async (user) => {
     }
 
     const newUser = new User({ username, email, password });
+
+    // Create score for this user
+    const userScore = new Score({user: newUser._id, score: 0});
+    await userScore.save(); // Save in colection score
+
     await newUser.save().then(() => {
       console.log("User saved successfully");
     });
