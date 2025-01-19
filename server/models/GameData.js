@@ -33,5 +33,13 @@ GameDataSchema.methods.incrementScore = function () {
   this.current_score += 1;
 }
 
-const GameData = mongoose.model("GameDate", GameDataSchema);
+GameDataSchema.methods.raiseLevel = function () {
+  if(this.current_level === "easy") {
+    this.current_level = "medium";
+  } else if (this.current_level === "medium") {
+    this.current_level = "hard";
+  }
+}
+
+const GameData = mongoose.model("GameData", GameDataSchema);
 module.exports = GameData;

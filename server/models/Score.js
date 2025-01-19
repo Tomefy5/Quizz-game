@@ -10,7 +10,8 @@ const ScoreScheme = new Schema(
       unique: false,
     },
     score: {
-      type: Number, // todo: transform score type to array of numbers for statistics (we update only current score of gameDate during the game)
+      type: [Number], 
+      default: [],// todo: transform score type to array of numbers for statistics (we update only current score of gameDate during the game)
       required: true,
     },
   },
